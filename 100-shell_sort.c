@@ -9,6 +9,7 @@
 void Swap2Int(int *a, int *b)
 {
 	int cmd;
+
 	cmd = *a;
 	*a = *b;
 	*b = cmd;
