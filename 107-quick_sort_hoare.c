@@ -15,6 +15,7 @@ void Qs_Hoare(int *array, size_t size, int First, int Last);
 void Swap2Int(int *a, int *b)
 {
 	int cmd;
+
 	cmd = *a;
 	*a = *b;
 	*b = cmd;
@@ -28,7 +29,8 @@ void Swap2Int(int *a, int *b)
  * @First: Starting index of the subset to order
  * @Last: Ending index of the subset to order
  *
- * Return: Final partition index - return the position of the last element sorted
+ * Return: Final partition index - return the position of the last element
+ * sorted
  *
  * Description: It ses the last element of the partition as the pivot.
  * Prints the array after each swap of two elements.
@@ -60,7 +62,8 @@ int hoare_partition(int *array, size_t size, int First, int Last)
 }
 
 /**
- * Qs_Hoare - Function that implements the quicksort algorithm through recursion.
+ * Qs_Hoare - Function that implements the quicksort algorithm through
+ * recursion.
  * @First: Starting index of the array partition to order
  * @Last: Ending index of the array partition to order
  * @array: Array of integers to sort
