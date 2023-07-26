@@ -14,6 +14,7 @@ void Max_Heap(int *array, size_t size, size_t base, size_t root);
 void Swap2Int(int *a, int *b)
 {
 	int cmd;
+
 	cmd = *a;
 	*a = *b;
 	*b = cmd;
