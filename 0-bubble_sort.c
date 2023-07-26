@@ -9,6 +9,7 @@
 void Swap2Int(int *a, int *b)
 {
 	int cmd;
+
 	cmd = *a;
 	*a = *b;
 	*b = cmd;
@@ -33,7 +34,6 @@ void bubble_sort(int *array, size_t size)
 	while (bubbly == false)
 	{
 		bubbly = true;
-	
 		for (i = 0; i < Vol - 1; i++)
 		{
 			if (array[i] > array[i + 1])
