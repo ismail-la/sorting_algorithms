@@ -14,13 +14,14 @@ void quick_sort(int *array, size_t size);
 void Swap2Int(int *a, int *b)
 {
 	int cmd;
+
 	cmd = *a;
 	*a = *b;
 	*b = cmd;
 }
 
 /**
- * lomuto_partition -  sorting scheme implementation - Order a subset of an array
+ * lomuto_partition - sorting scheme implementation
  * of integers according to the lomuto partition scheme
  * @array: Array of integers
  * @left: Starting index of the subset to order - first element
@@ -63,7 +64,7 @@ int lomuto_partition(int *array, size_t size, int left, int right)
  * @left: Starting index of the array partition to order - first array element
  * @right: Ending index of the array partition to order -  last array element
  * @size: Size of the array
- * 
+ *
  * Description: It uses the Lomuto partition scheme
  */
 
@@ -80,7 +81,7 @@ void Lomuto_QS(int *array, size_t size, int left, int right)
 }
 
 /**
- * quick_sort - Sort an array of integers in ascending order using 
+ * quick_sort - Sort an array of integers in ascending order using
  * quicksort algorithm -  prepare the terrain to quicksort algorithm
  * @array: Array of integers.
  * @size: Size of the array.
