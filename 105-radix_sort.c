@@ -26,8 +26,8 @@ int Get_maximum(int *array, int size)
 }
 
 /**
- * Radix_sort_count - Function that sort the significant digits of an array of integers
- *                    in ascending order using counting sort algorithm
+ * Radix_sort_count - Function that sort the significant digits of an array
+ * of integers in ascending order using counting sort algorithm
  * @Sig_digit: Significant digit to sort on
  * @buff: Buffer to store the sorted array
  * @array: Array of integers
