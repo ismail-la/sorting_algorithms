@@ -6,7 +6,8 @@ void Merge_SubAr(int *subarr, int *buff, size_t front, size_t mid,
 void Merge_order_recursive(int *subarr, int *buff, size_t front, size_t back);
 
 /**
- * Merge_order_recursive - Function that implement the merge sort algorithm through recursion
+ * Merge_order_recursive - Function that implement the merge sort algorithm
+ * through recursion
  * @front: Front index of the subarray
  * @back: Back index of the subarray
  * @subarr: Subarray of an array of integers to sort
