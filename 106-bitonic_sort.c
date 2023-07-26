@@ -23,7 +23,8 @@ void swap_ints(int *a, int *b)
 }
 
 /**
- * Merge_Bitonic - Function that sort a bitonic sequence inside an array of integers.
+ * Merge_Bitonic - Function that sort a bitonic sequence inside
+ * an array of integers.
  * @start: Starting index of the sequence in array to sort
  * @rang: Size of the sequence to sort
  * @flow: The irection to sort
